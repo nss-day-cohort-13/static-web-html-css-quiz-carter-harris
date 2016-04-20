@@ -107,18 +107,18 @@ IMAGES
 ***************************/
 
 img {
-    display: block;
-    margin: auto;
-    width: 240px;
-    height: 200px;
+	display: block;
+	margin: auto;
+	width: 240px;
+	height: 200px;
 } /* styles all images */
 
 img:hover {
-box-shadow: 0 10px 6px -6px grey;
+	box-shadow: 0 10px 6px -6px grey;
 }
 img {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 } /* shadow line below images */
 
 .pedal {
