@@ -1,0 +1,127 @@
+/***************************
+FONTS
+***************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+
+
+/***************************
+GENERAL
+***************************/
+
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	background-color: whitesmoke;
+	height: 1500px;
+	padding-left: 6%;
+  padding-right: 2%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+} /* wrapping entire page */
+
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+} /*  */
+
+.centered {
+	margin: 0 auto;
+	padding: 10px;
+}  /*a div to center all the cards on the page*/
+
+
+
+/***************************
+CARD STYLES
+
+-(Elements from
+top to bottom, the best I
+could do lol)
+***************************/
+
+h1 {
+	text-align: center;
+	margin: 0;
+  padding: 14px 20px;
+  letter-spacing: 1px;
+  border: 1px dotted lightgrey;
+} /* all card titles style */
+
+p {
+	text-align: left;
+	padding: 0 16px;
+} /* general style for description text, availability, size, and price. */
+
+h2 {
+	padding: 0 0 0 8px;
+} /* styling for pricing and specs headline elements */
+
+.card {
+	width: 30%;
+	float: left;
+	border: 1px solid lightblue;
+	max-height: 778px;
+	min-width: 350px;
+	margin: 10px;
+	background-color: white;
+} /* floating and size of cards */
+
+.clear {
+	clear: both;
+}
+
+.availablility-style {
+	background-color: darkgrey;
+} /* Cause Joe Said So */
+
+.availability-text {
+	padding: 4px 16px;
+	text-align: center;
+	color: yellow;
+	text-transform: uppercase;
+}
+
+.description {
+	text-align: justify;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-small {
+	font-size: .8em;
+}
+
+
+
+/***************************
+IMAGES
+***************************/
+
+img {
+	display: block;
+	margin: auto;
+	width: 240px;
+	height: 200px;
+} /* styles all images */
+
+img:hover {
+	box-shadow: 0 10px 6px -6px grey;
+}
+img {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+} /* shadow line below images */
+
+.pedal {
+	padding: 18px 0 8px 0;
+	/*overflow: hidden;  Makes the surrounding elements push containers over the image itself */
+}
